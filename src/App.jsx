@@ -1,12 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import React from 'react'
+import style from './App.module.scss'
 
 function App() {
 
   return (
-    <div className="App">
-      
+    <div className={style.app}>
+      <p>클론페이지</p>
     </div>
   )
 }
