@@ -53,7 +53,7 @@ export default function PlayPage() {
     return () => {
       navDisplay(true)
     }
-  }, [])
+  }, [id])
 
   const channelId = video[0]?.snippet?.channelId
 
